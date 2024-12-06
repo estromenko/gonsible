@@ -1,0 +1,14 @@
+name = "simple-pipeline"
+groups = [
+  "local"
+]
+
+[[steps]]
+description = "Do something"
+cmd = '''
+  mkdir -p /tmp/gonsible
+'''
+
+[[steps]]
+description = "Hello"
+cmd = "echo Hello World"
